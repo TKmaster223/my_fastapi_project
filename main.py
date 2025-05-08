@@ -4,7 +4,7 @@ from typing import List, Optional
 
 app = FastAPI()
 
-# In-memory "database"
+# In-memory "database" maybe add sql later
 tasks = []
 
 # Pydantic model
